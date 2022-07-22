@@ -58,7 +58,7 @@ function LoginModal() {
         <Modal.Body>
             <Form>
             <Row>
-                <Col>props
+                <Col>
                 <FloatingLabel
                     controlId="floatingInputEmailLogin"
                     label="Email address"
