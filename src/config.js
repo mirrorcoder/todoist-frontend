@@ -1,5 +1,5 @@
 const config = {
-    api_url: '' || process.env.REACT_APP_CONFIG_URL
+    api_url: (process.env.REACT_APP_CONFIG_URL ? process.env.REACT_APP_CONFIG_URL: '')
 }
 
 export default config
